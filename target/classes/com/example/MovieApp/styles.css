@@ -1,0 +1,82 @@
+/* Global Styles */
+.root {
+    -fx-text-fill: #ffffff; /* White text */
+    -fx-font-family: "Roboto", Arial, sans-serif;
+    -fx-font-size: 20pt;
+    -fx-background-color: #2c3e50; /* Dark blue background */
+    -fx-background-size: cover;
+}
+
+/* Label Styles */
+.label {
+    -fx-text-fill: #e67e22; /* Orange text */
+    -fx-font-family: "Helvetica Neue", Arial, sans-serif;
+    -fx-font-size: 20pt;
+}
+
+/* Message Label Styles */
+#msgLabel {
+    -fx-text-fill: #ffffff; /* White text */
+    -fx-font: bold 20pt "Arial";
+    -fx-background-color: #34495e; /* Dark grey background */
+    -fx-background-radius: 20px;
+    -fx-padding: 10px;
+}
+
+/* Button Styles */
+.button {
+    -fx-background-radius: 20px;
+    -fx-font-family: "Roboto", Arial, sans-serif;
+    -fx-font-size: 18pt;
+    -fx-text-fill: white;
+    -fx-background-color: #e67e22; /* Orange button */
+    -fx-padding: 10px 20px;
+    -fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );
+}
+
+/* List View Styles */
+.list-view {
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-padding: 10px;
+    -fx-background-color: #ecf0f1; /* Light grey background */
+}
+
+/* Text Field Styles */
+.text-field {
+    -fx-background-radius: 20px;
+    -fx-padding: 10px;
+    -fx-background-color: #ecf0f1; /* Light grey background */
+}
+
+/* Titles List View Styles */
+#titlesListView {
+    -fx-padding: 10px;
+    -fx-background-color: #34495e; /* Dark grey background */
+    -fx-background-radius: 20px;
+}
+
+/* Progress Bar Styles */
+.progress-bar {
+    -fx-background-radius: 20px;
+    -fx-pref-height: 50px;
+    -fx-border-radius: 20px;
+}
+
+.progress-bar .track {
+    -fx-background-color: #bdc3c7; /* Lighter grey background */
+    -fx-background-radius: 20px;
+}
+
+.progress-bar .bar {
+    -fx-background-color: linear-gradient(to left, #e67e22, #f7f7f7); /* Orange to light grey gradient */
+    -fx-background-radius: 18px;
+}
+
+/* Sample Text */
+#sampleText {
+    -fx-text-fill: #ffffff; /* White text */
+    -fx-font-family: "Roboto", Arial, sans-serif;
+    -fx-font-size: 24pt;
+    -fx-padding: 20px;
+}
